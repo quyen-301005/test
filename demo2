@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+      #div_tong{
+        width: 100%;
+        height: 700px;
+        background: pink;
+      }
+      #div_tren{
+        width: 100%;
+        height: 20%;
+        background: yellow;
+      }
+      #div_tren > .trai{
+        width: 50%;
+        height: 100%;
+        background: red;
+        float: left;
+      }
+      #div_tren > .phai{
+        width: 50%;
+        height: 100%;
+        background: purple;
+        float: left;
+      }
+      #div_tren>.phai>.tren{
+        widows: 100%;
+        height: 80%;
+        background: orange;
+        text-align: right;
+      }
+      #div_tren>.phai>.duoi{
+        widows: 100%;
+        height: 20%;
+        background: gray;
+      }
+      #div_duoi{
+        width: 100%;
+        height: 80%;
+        background: green;
+      }
+      #div_duoi>.trai{
+        width: 30%;
+        height: 100%;
+        background: brown;
+        float: left;
+        border-right: 3px solid black;
+      }
+      #div_duoi>.giua{
+        width: 40%;
+        height: 100%;
+        background: aqua;
+        float: left;
+      }
+      #div_duoi>.phai{
+        width: 29%;
+        height: 100%;
+        background: silver;
+        float: left;
+      }
+    </style>
+</head>
+  <div id="div_tong">
+    <div id="div_tren">
+      <div class="trai">
+        <a href="">
+          <img src="https://i.pinimg.com/originals/89/6f/d8/896fd82153a88fcd6b937672d00cddef.jpg" style="height:100%; width:100%;">
+        </a>
+      </div>
+      <div class="phai">
+        <div class="tren" style="background-image: url('https://i.pinimg.com/564x/ce/e1/f9/cee1f93b5969190e753c324f49442b5f.jpg'); background-size:cover ">
+          <form>
+            <select>
+              <option>test1</option>
+            </select>
+            <button>gau gau</button>
+          </form>
+        </div>
+        <div class="duoi">
+          <a href="">
+            <img src="https://i.pinimg.com/564x/c9/54/63/c9546328b95bfee629385fd85146d026.jpg" style="height:100%;">
+          </a>
+          <a href="">
+            <img src="https://i.pinimg.com/564x/18/22/03/18220355a19cf06c63536c565a6f70db.jpg" style="height:100%;">
+          </a>
+          <a href="">
+            <img src="https://i.pinimg.com/564x/63/6f/02/636f02901de01345e99d6dc791767fbe.jpg" style="height:100%;">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="div_duoi">
+      <div class="trai"></div>
+      <div class="giua"></div>
+      <div class="phai"></div>
+    </div>
+  </div>
+<body>
+</body>
+
+</html>
